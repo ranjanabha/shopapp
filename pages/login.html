@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Login</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    
+          
+    
+    <div class="container">
+         <div class="row">
+             <h4 id="welcome-message">WELCOME</h4>
+        
+         </div>
+        <div class="row">
+            <div class="col-sm-8 col-md-8 col-lg-8 col-xs-offset-2">
+                <div class="login-panel panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Login</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form id="loginform">
+                          <div class="form-horizontal">
+                            <div class="form-group" id="messagegroup">
+                                    <label id="errormessage" class="col-sm-12 col-md-12 col-lg-12 control-label pull-left" style='color: #990000;text-align:center;display:none'>Provided username or password doest not match</label>
+                            </div>
+                           <div class="form-group" id="usernamegroup">
+                                    <label class="col-sm-2 col-md-2 col-lg-2 control-label">Username</label>
+                                    <div class="col-sm-10 col-md-10 col-lg-10">
+                                     <input class="form-control" id="username" name="username" type="text" autofocus>
+                                    </div>
+                                    
+                                </div>
+                                <div class="form-group" id="passwordgroup">
+                                    <label class="col-sm-2 col-md-2 col-lg-2 control-label">Password</label>
+                                    <div class="col-sm-10 col-md-10 col-lg-10">
+                                     <input class="form-control" id="password"  name="password" type="password" value="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12" style="text-align:center;">
+                                        <a data-toggle="modal" href="#forgetpassword"> Dimenticato la password?</a>
+                                    </div>
+                                </div>
+                                <!-- Change this to a button or input when using this as a form -->
+                               <div class="form-group">
+                                <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12" style="text-align:center;" >
+                                    <button type="submit" class="btn btn-lg btn-primary">Login</button>
+                                </div>
+                            </div> 
+                        </div>
+                        </form>         
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+        <!--modal window for new appointment-->
+    <div id="forgetpassword" class="modal fade" role="dialog" style="margin-top:15%;">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div  class="modal-content" style="background-color:gainsboro;">
+                  
+                  <div class="modal-body">
+                      <form id="forgotpasswordform">
+                        <div class="form-horizontal">
+                      
+                      <div class="row" style="margin-top:30px;" id="forgot_password">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadding" >
+                                                    <div class="form-group">
+                                                         
+                                                    <label class="col-lg-12 col-md-12 col-sm-12 col-xs-12 control-label" style="color: #990000;text-align:center; ">
+                                                         Enter your username and E-mail address
+                                                    </label>
+                                                            
+                                                    </div>
+                                                     <div class="form-group" id="username_forgetpasswordgroup">
+                                                            <label class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Username:</label>
+                                                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                                                <input type="text" placeholder="Please enter your username" name="username_forgetpassword" class="form-control" >
+                                                            </div>
+                                                       </div>
+                                                        <div class="form-group" id="email_forgetpassword_group">
+                                                            <label class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">E-mail:</label>
+                                                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                                                <input type="text" placeholder="Please enter your registered e-mail" name="email_forgetpassword" class="form-control" >
+                                                            </div>
+                                                       </div>
+                                                       <div class="form-group">
+                                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align:center;">
+                                                               <button type="submit" class="btn btn-primary">Submit</button>
+                                                            </div>
+                                                       </div>
+                                                       <div class="form-group" id="forgotcredentialserrmsg">
+                                                            <h6 id="reason" style="color: #990000;text-align:center;">
+                                               <i class='fa fa-remove fa-3x' style='color: #990000;margin-right:10px;'></i>Supplied username is not registered with us,Please check your username or e-mail address.</h6>
+                                                       </div>
+                                                       <div class="form-group" id="forgotcredentialssuccessmsg">
+                                                            <h6 id="reason" style="color: #006633;text-align:center;">
+                                               <i class='fa fa-check fa-3x' style='color: #006633;margin-right:10px;'></i>Your credentials have been sent to provided e-mail address.</h6>
+                                                       </div>
+                                                     
+                                        </div>
+                          </div>
+                          
+                      </div>
+                      </form>    
+                  </div>
+             </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+    
+   <script>
+       
+    //for login form   
+    $("#errormessage").hide(); 
+    $("#forgotcredentialserrmsg").hide();
+    $("#forgotcredentialssuccessmsg").hide();
+       
+    $("form#loginform").submit(function(){
+    //check formdata for required fields add appropriate class 
+    
+    var isRequiredFieldBlank=false;   
+    if($("input[name='username']").val()==""){
+        $("#usernamegroup").addClass("has-error");
+        isRequiredFieldBlank=true;
+    }else{
+        if($("#usernamegroup").hasClass("has-error")){
+            $("#usernamegroup").removeClass("has-error")
+        }
+    }
+    if($("input[name='password']").val()==""){
+        $("#passwordgroup").addClass("has-error");
+        isRequiredFieldBlank=true;
+    }else{
+        if($("#passwordgroup").hasClass("has-error")){
+            $("#passwordgroup").removeClass("has-error")
+        }
+    } 
+    if(!isRequiredFieldBlank){
+         var formData = new FormData($(this)[0]);
+          $.ajax({
+        url: '../php/login.php',
+        type: 'POST',
+        data: formData,
+        async: false,
+        success: function(data){
+              console.log(data);
+              var finaldata=JSON.parse(data);
+              if(finaldata.OPERATION==0){
+                    if(finaldata.SHOP=='NA' ){
+                        window.location="configure-shop.php";
+                     }
+                   if(finaldata.SHOP_ADMIN=='NA'){
+                        window.location="new-client.php";
+                    }
+               }else{
+                  $("#errormessage").show();
+                 }
+              
+          },
+        cache: false,
+        contentType: false,
+        processData: false
+    });
+    }
+//end of submit
+    return false;
+    });
+    
+//for forgot password form
+       
+    $("form#forgotpasswordform").submit(function(){
+    //check formdata for required fields add appropriate class 
+    var isRequiredFieldBlank=false;   
+    if($("input[name='username_forgetpassword']").val()==""){
+        $("#username_forgetpasswordgroup").addClass("has-error");
+        isRequiredFieldBlank=true;
+    }else{
+        if($("#username_forgetpasswordgroup").hasClass("has-error")){
+            $("#username_forgetpasswordgroup").removeClass("has-error")
+        }
+    }
+    if($("input[name='email_forgetpassword']").val()==""){
+        $("#email_forgetpassword_group").addClass("has-error");
+        isRequiredFieldBlank=true;
+    }else{
+        if($("#email_forgetpassword_group").hasClass("has-error")){
+            $("#email_forgetpassword_group").removeClass("has-error")
+        }
+    } 
+   
+   
+    if(!isRequiredFieldBlank){
+        
+         var formData = new FormData($(this)[0]);
+        alert(formData);
+          $.ajax({
+        url: '../php/forgot-password.php',
+        type: 'POST',
+        data: formData,
+        async: false,
+        success:function(data){
+             console.log(data);  
+             var finaldata=JSON.parse(data);
+            if(finaldata.OPERATION==0){
+              $("#forgotcredentialssuccessmsg").show(); 
+            }else{
+                 $("#forgotcredentialserrmsg").show();
+            }  
+             
+          } ,
+        cache: false,
+        contentType: false,
+        processData: false
+    });
+    }
+   
+   
+
+    return false;
+    });
+       
+       
+    </script>
+
+</body>
+
+</html>

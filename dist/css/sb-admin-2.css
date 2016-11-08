@@ -1,0 +1,82 @@
+/*!
+ * Start Bootstrap - SB Admin 2 v3.3.7+1 (http://startbootstrap.com/template-overviews/sb-admin-2)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body{
+    font-size:12px;
+    background-image: url(../../image/backgorund.png);
+    background-size:cover;
+}
+.panel-title{
+    text-align: center;
+}
+#welcome-message{
+    font:30px Courier;
+    color:#fff;
+    margin:0 auto;
+    text-align:center;
+    margin-top:10%;
+    padding:20px;
+    letter-spacing:5px;
+}
+#wrapper {
+  width: 100%;
+  padding-top: 20px;    
+}
+
+li{
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+li>a{
+    color:black;
+    font-weight: bold;
+}
+
+a:hover{
+    width:16.66%;
+    color:blueviolet;
+    font-weight: bold;
+}
+#page-wrapper {
+  background-color: gainsboro;
+  margin:0 auto;
+  width:80%;
+}
+.h-divider{ 
+ width:100%;
+ border-top:1px solid gray;
+}
+#newappointmentmodal{
+    background-color: gainsboro;
+}
+.popover-content {
+    background-color: gainsboro;
+}
+.popover-title {
+    background-color: gainsboro; 
+    color:#007FFF;
+}
+
+
+.table {
+  border: 0.5px solid #ccc6c6;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+   border: 0.5px solid #ccc6c6;
+}
+.table td {
+   text-align: center;   
+}
+.table th {
+   text-align: center;   
+}
