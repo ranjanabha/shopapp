@@ -1,35 +1,55 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [SB Admin 2](http://startbootstrap.com/template-overviews/sb-admin-2/)
+# [Doctor Shop App](http://www.dappoint.com/shopapp/pages/login.html)
 
-[SB Admin 2](http://startbootstrap.com/template-overviews/sb-admin-2/) is an open source, admin dashboard template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+[Doctor Shop App](http://www.dappoint.com/shopapp/pages/login.html) is an backend system that manages doctor appointments efficently.It also serves as backend to its Android,Windows and IOS based mobile apps that are used by patients to book appoinment with doctor.
 
-## Getting Started
+## Getting Started (Shop)
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin-2/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git`
-* Fork the repo
+To begin using this application, First you need to register your shop with us.
+Once your shop is configured by us,You will provided with a username and password to login our system.
 
-## Using the Source Files
+Shop users will get following services
 
-After cloning the repo take a look at the `gulpfile.js` and check out the tasks available:
-* `gulp` The default task will compile the LESS and JS into the `dist` directory and minify the output, and it will copy all vendor libraries from `bower_components` into the `vendor` directory
-* `gulp dev` The dev task will serve up a local version of the template and will watch the LESS, JS, and HTML files for changes and reload the browser windo automatically
+*Getting first hand information of patients using our mobile app using their unique barcode no
+*Registering the patients with your shop after you have searched the patient using their barcode no
+*We also provide registering patients who do not use our mobile app
+*Scheduling a doctor appointment for the patient
+*Single view to check your patient future appointment details,book new appointment,edit patient details
+*Single view to provide appointment details of the day
+*Edit your shop details
+*Provide notifications to the shop in case a patient decided to postpone the appoitment
+*Send notifications and sms alerts to patients regarding their appointment
 
-To update dependencies, run `bower update` and then run `gulp copy` to copy the updated dependencies into the `vendor` directory
+## Getting Started (Patient)
+
+Patients can download mobile app from Windows,IOS and Android store.
+
+Patients can directly login to our system using their facebook or gmail account.In case you dont have one,
+
+you can always register us by clicking on Register lin
+
+Patient will get following service from our app
+
+*Unique barcode no that can be used to get them registered our listed shop.Hasle free formless registration
+process quickly gets you an appointment with doctor for consultation and necessary intervention.
+*Get future appointment details from shop
+*Get timely reminders for doctor appointment
+*Quick access to doctor shop details that you are connected to
+
+
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin-2/).
+The application is under development
+
+*IOS and Windows build are under progress.
+*Notification using GCM and Apple server in progress.
+*Facebook and gmail login in progress.
 
 ## Creator
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+Created by:
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+*Ranjanabha Bhattacharya
+*Arun Das
+*Debangan Roy
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/blob/gh-pages/LICENSE) license.
