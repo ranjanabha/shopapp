@@ -53,3 +53,7 @@ Created by:
 * Arun Das
 * Debangan Roy
 
+## Copyright
+
+@Copyright 2016-2017 reserved by creators of the project.
+
