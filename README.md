@@ -29,11 +29,11 @@ you can always register us by clicking on Register lin
 
 Patient will get following service from our app
 
-*Unique barcode no that can be used to get them registered our listed shop.Hasle free formless registration
-process quickly gets you an appointment with doctor for consultation and necessary intervention.
-*Get future appointment details from shop
-*Get timely reminders for doctor appointment
-*Quick access to doctor shop details that you are connected to
+* Unique barcode no that can be used to get them registered our listed shop.Hasle free formless registration
+  process quickly gets you an appointment with doctor for consultation and necessary intervention.
+* Get future appointment details from shop
+* Get timely reminders for doctor appointment
+* Quick access to doctor shop details that you are connected to
 
 
 
@@ -41,15 +41,15 @@ process quickly gets you an appointment with doctor for consultation and necessa
 
 The application is under development
 
-*IOS and Windows build are under progress.
-*Notification using GCM and Apple server in progress.
-*Facebook and gmail login in progress.
+* IOS and Windows build are under progress.
+* Notification using GCM and Apple server in progress.
+* Facebook and gmail login in progress.
 
 ## Creator
 
 Created by:
 
-*Ranjanabha Bhattacharya
-*Arun Das
-*Debangan Roy
+* Ranjanabha Bhattacharya
+* Arun Das
+* Debangan Roy
 
