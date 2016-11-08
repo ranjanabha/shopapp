@@ -9,8 +9,8 @@ Once your shop is configured by us,You will provided with a username and passwor
 
 Shop users will get following services
 
-*Getting first hand information of patients using our mobile app using their unique barcode no
-*Registering the patients with your shop after you have searched the patient using their barcode no
+**Getting first hand information of patients using our mobile app using their unique barcode no
+**Registering the patients with your shop after you have searched the patient using their barcode no
 *We also provide registering patients who do not use our mobile app
 *Scheduling a doctor appointment for the patient
 *Single view to check your patient future appointment details,book new appointment,edit patient details
